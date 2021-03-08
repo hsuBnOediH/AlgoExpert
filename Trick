@@ -1,0 +1,10 @@
+1. Python 快速创建2D 全0数组 已知 matrix 
+
+[[0] * len(row) for row in matrix]
+
+[0] * 2 == [0,0]
+容易忘记 里面的[]
+TF矩阵  [[False for value in row] for row in matrix]  
+
+2. Python 数字的TF 判定
+0 None Null 是False， 其他为True
